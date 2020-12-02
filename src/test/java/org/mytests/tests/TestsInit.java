@@ -9,11 +9,11 @@ import static com.epam.jdi.light.elements.composite.WebPage.openSite;
 import static com.epam.jdi.light.settings.WebSettings.logger;
 
 public interface TestsInit {
-    @BeforeSuite(alwaysRun = true)
-    static void setUp() {
-        openSite(SiteJdi.class);
-        logger.info("Run Tests");
-    }
+//    @BeforeSuite(alwaysRun = true)
+//    static void setUp() {
+//        openSite(SiteJdi.class);
+//        logger.info("Run Tests");
+//    }
 
     @AfterSuite(alwaysRun = true)
     static void teardown() {
